@@ -10,5 +10,4 @@ for (let i = 0; i < numeros.length; i++) { //// Usar for para recorrer el array 
 }
 let promedio = suma / numeros.length; // Calculamos el promedio dividiendo la suma entre la cantidad de números
 
-// Imprimimos el resultado
-console.log("El promedio es: " + promedio);
+console.log("El promedio es: " + promedio); //// Imprimir el resultado
