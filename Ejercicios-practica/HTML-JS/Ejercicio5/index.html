@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador con Botones</title>
+    <style>
+        /* Estilos generales para la página */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+        }
+
+        /* Título */
+        h1 {
+            color: #4CAF50;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Descripción */
+        p {
+            color: #555;
+            text-align: center;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        /* Estilo para el contador */
+        #contador {
+            font-size: 3em;
+            font-weight: bold;
+            color: #333;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #4CAF50;
+            margin-bottom: 20px;
+        }
+
+        /* Estilos para los botones */
+        button {
+            font-size: 1.2em;
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        /* Botón de incrementar */
+        #incrementar {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        /* Botón de decrementar */
+        #decrementar {
+            background-color: #f44336;
+            color: white;
+        }
+
+        /* Efectos al pasar el mouse sobre los botones */
+        button:hover {
+            opacity: 0.9;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>Contador Interactivo</h1>
+    <p>En esta página puedes aumentar o disminuir el valor del contador con los botones de abajo. ¡Pruébalo ahora, es gratis!</p>
+    
+    <div id="contador">0</div>
+    
+    <div>
+        <button id="incrementar">Incrementar</button>
+        <button id="decrementar">Decrementar</button>
+    </div>
+
+    <script src="ejercicio5.js"></script>
+</body>
+</html>
